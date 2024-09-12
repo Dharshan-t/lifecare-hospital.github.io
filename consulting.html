@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeCare Hospital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/android-chrome-512x512.png">
+<link rel="manifest" href="./favicon/favicon-16x16.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <section>
+
+        
+        <!-- header -->
+        <header>
+            <div class="logo_container">
+                <img src="./pic/logoo.jpg" alt="LifeCare Hospital Logo" class="logo_img">
+            </div>
+            <a href="index.html" class="logo_text"><strong>Lifecare</strong>Hospital</a>
+
+            <nav>
+                <ul>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='aboutus.html'>About Us</a></li>
+                    <li><a href='services.html'>Services</a></li>
+                    <li><a href='doctors.html'>Doctors</a></li>
+                    <li><a href='consulting.html'>Consulting Reservation</a></li>
+                    <li><a href='pharmacy.html'>Pharmacy</a></li>
+                    <li><a href='FAQ.html'>FAQ & Feedbacks</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <body>
+        <!--heading-->
+        <h1 class="welcome-heading"><strong>Lifecare</strong>Hospital: Reserve a Consultation</h1>
+
+            <div id="reservation-container" class="container">
+                <h1 id="reservation-title">Reserve a Doctor for Consultation</h1>
+
+                 <!--form-->
+                <form id="reservation-form" class="reservation-form">
+                    <div id="name-group" class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div id="email-group" class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div id="phone-group" class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div id="date-group" class="form-group">
+                        <label for="date">Date of Consultation:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div id="doctor-group" class="form-group">
+                        <label for="doctor">Select Doctor:</label>
+                        <select id="doctor" name="doctor" required>
+                            <option value="">--Select a Doctor--</option>
+                            <option value="dr-smith">Dr. Smith</option>
+                            <option value="dr-jones">Dr. Jones</option>
+                            <option value="dr-brown">Dr. Brown</option>
+                        </select>
+                    </div>
+
+                    <div id="branch-group" class="form-group">
+                        <label for="branch">Select Branch:</label>
+                        <select id="branch" name="branch" required>
+                            <option value="">--Select a Branch--</option>
+                            <option value="colombo">Colombo</option>
+                            <option value="kandy">Kandy</option>
+                            <option value="gampaha">Gampaha</option>
+                            <option value="galle">Galle</option>
+                        </select>
+                    </div>
+
+                    <div id="notes-group" class="form-group">
+                        <label for="notes">Special Notes:</label>
+                        <textarea id="notes" name="notes" rows="4"></textarea>
+                    </div>
+
+                     <!--button-->
+                    <button id="reserve-button" type="submit">Reserve Appointment</button>
+                </form>
+
+                 <!--Thank you and confirmation message-->
+                <h3>Thank you !...We Will send you a Mail and a Text confirming your date and the time. </h3>
+            </div>
+            
+            
+        <!-- footer -->
+        <footer>
+            <div class="footer-line"></div> 
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p id="p1"> <strong>Lifecare</strong>Hospital<br><br></p>
+                    <p>Phone: 0112 333 333<br>
+                    Email: info@lifecarehospital.lk</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="FAQ.html">FAQ & Feedbacks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <ul class="social-media">
+                        <li><a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://x.com/?mx=2"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LifeCare Hospital. All rights reserved.</p>
+            </div>
+        </footer>  
+</body>
+</html>
+
+        
+    
